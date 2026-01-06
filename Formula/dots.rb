@@ -12,14 +12,17 @@ class Dots < Formula
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/seanmozeik/dots/releases/download/v#{version}/dots-"
+      url "https://github.com/seanmozeik/dots/releases/download/v#{version}/dots-darwin-arm64.tar.gz"
+      sha256 ""
     else
-      url "https://github.com/seanmozeik/dots/releases/download/v#{version}/dots-"
+      url "https://github.com/seanmozeik/dots/releases/download/v#{version}/dots-darwin-x64.tar.gz"
+      sha256 ""
     end
   end
 
   on_linux do
-    url "https://github.com/seanmozeik/dots/releases/download/v#{version}/dots-"
+    url "https://github.com/seanmozeik/dots/releases/download/v#{version}/dots-linux-x64.tar.gz"
+    sha256 ""
   end
 
   def install
