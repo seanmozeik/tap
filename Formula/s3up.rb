@@ -4,16 +4,16 @@
 class S3up < Formula
   desc "Fast CLI tool for uploading files to S3-compatible storage"
   homepage "https://github.com/seanmozeik/s3up"
-  version "0.2.1"
+  version "0.2.2"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/seanmozeik/s3up/releases/download/v#{version}/s3up-darwin-arm64.tar.gz"
-      sha256 "902251d537e296ca3747807783fcb548654d1ca4f6bf27c0699b5f196e7842d4"
+      sha256 "e6a16d2e732abeb1656dd64f6c759e364b67cc857259090763c0fbd85d7dd243"
     else
       url "https://github.com/seanmozeik/s3up/releases/download/v#{version}/s3up-darwin-x64.tar.gz"
-      sha256 "c976aa64fc0e8c0c3978a9e2b7f0c9b2e4fe734720ca5143ae5861068d36b341"
+      sha256 "da00c1cb2e11e2b747b5ece06121b9bea53a4892d0418da9f8b989a846d1ce5b"
     end
   end
 
@@ -22,10 +22,10 @@ class S3up < Formula
 
     if Hardware::CPU.arm?
       url "https://github.com/seanmozeik/s3up/releases/download/v#{version}/s3up-linux-arm64.tar.gz"
-      sha256 "fd21e144c1f558bcd219dd9a2c685b84137dabef43d4e198b28c163fdd3037bf"
+      sha256 "afa1498461ad3c485db00f5ca2c6e2a39c5dc51a980d64607566349f9ba6c673"
     else
       url "https://github.com/seanmozeik/s3up/releases/download/v#{version}/s3up-linux-x64.tar.gz"
-      sha256 "7c8605938f19aa75add428cd3c1a6242a03fb5495e2da141c3e6d16992843c57"
+      sha256 "ef405df69c213bf5ca245227eedd266a0150d5dfcc8726f6c04528450d412a7b"
     end
   end
 
