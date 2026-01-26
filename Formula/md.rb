@@ -1,12 +1,12 @@
 class Md < Formula
   desc "Beautiful terminal markdown viewer"
   homepage "https://github.com/seanmozeik/markdown-display"
-  version "0.2.1"
+  version "0.3.0"
   license "MIT"
 
   # URL to bundled source (single JS file)
   url "https://github.com/seanmozeik/markdown-display/releases/download/v#{version}/md-#{version}.tar.gz"
-  sha256 "d83811ccaad58550bea1015576a9357b238fe849e60ef1f9b7ca97f37152f9ea"
+  sha256 "1d6d1f8847b6c9ca5aa638d9d3ed24839bf0fbb259155ad3dd8d9bbb6fe13050"
 
   depends_on "bun"
 
