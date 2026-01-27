@@ -8,7 +8,7 @@ class Md < Formula
   url "https://github.com/seanmozeik/markdown-display/releases/download/v#{version}/md-#{version}.tar.gz"
   sha256 "81dbfa737c06d21e679b7dc71f5488c37e932db8bf7d3a8626e435e86f337e5a"
 
-  depends_on "bun"
+  depends_on "oven-sh/bun/bun"
 
   def install
     # Install all bundled files to libexec

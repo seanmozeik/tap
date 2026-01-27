@@ -7,7 +7,7 @@ class Aic < Formula
   url "https://github.com/seanmozeik/AICommit/releases/download/v#{version}/aic-#{version}.tar.gz"
   sha256 "77fa7503a67412783ea2543262011143295be3583282c40a63e1d0bfb774b773"
 
-  depends_on "bun"
+  depends_on "oven-sh/bun/bun"
 
   on_linux do
     depends_on "libsecret"
