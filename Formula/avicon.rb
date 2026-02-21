@@ -1,12 +1,12 @@
 class Avicon < Formula
   desc "AI-powered audio/video/image conversion CLI — describe what you want, get the commands"
   homepage "https://github.com/seanmozeik/avicon"
-  version "0.1.3"
+  version "0.1.4"
   license "MIT"
 
   # URL to bundled source (single JS file)
   url "https://github.com/seanmozeik/avicon/releases/download/v#{version}/avicon-#{version}.tar.gz"
-  sha256 "0af902a3589b8e2bfdbbe64065fd00477a8626ffcd1c48d8c15bfe06126aad0a"
+  sha256 "c63041e12c72f17cf52d739a5965554139d13e8d75363d982ab77010af931bd6"
 
   depends_on "oven-sh/bun/bun"
 
