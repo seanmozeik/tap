@@ -1,12 +1,12 @@
 class Vicon < Formula
   desc "AI-powered media conversion CLI — describe what you want, get the commands"
   homepage "https://github.com/seanmozeik/vicon"
-  version "0.1.1"
+  version "0.1.2"
   license "MIT"
 
   # URL to bundled source (single JS file)
   url "https://github.com/seanmozeik/vicon/releases/download/v#{version}/vicon-#{version}.tar.gz"
-  sha256 "038c33e1f17e058fbe499aa2107f62cf783a127240dd824302317c29d7696a67"
+  sha256 "4ff8b666038e134857f953a00126ebc75a03eb9ea9da5166a216278b321bbd2b"
 
   depends_on "oven-sh/bun/bun"
 
