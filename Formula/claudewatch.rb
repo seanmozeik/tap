@@ -1,12 +1,12 @@
 class Claudewatch < Formula
   desc "Zero-argument CLI that continuously polls for Git file changes and renders syntax-highlighted unified diffs in the terminal"
   homepage "https://github.com/seanmozeik/claudewatch"
-  version "0.1.2"
+  version "0.1.3"
   license "MIT"
 
   # URL to bundled source (single JS file)
   url "https://github.com/seanmozeik/claudewatch/releases/download/v#{version}/claudewatch-#{version}.tar.gz"
-  sha256 "04b2aae97124f58a2f761f89ae295a9a4066514f8e5be76ac1e1f5cebf08b1c3"
+  sha256 "a20cf44c1e072ce42b5b344da007e64b89a3a41b405cd4768662467b5fb44eea"
 
   depends_on "oven-sh/bun/bun"
 
