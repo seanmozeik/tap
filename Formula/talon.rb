@@ -1,7 +1,7 @@
 class Talon < Formula
   desc "Hybrid retrieval for Obsidian vaults: BM25 + semantic + reranker, with grounded answers and MCP"
   homepage "https://github.com/seanmozeik/talon"
-  version "0.4.1"
+  version "0.4.2"
   license "MIT"
 
   on_macos do
