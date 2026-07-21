@@ -1,26 +1,26 @@
 class Talon < Formula
   desc "Hybrid retrieval for Obsidian vaults: BM25 + semantic + reranker, with grounded answers and MCP"
   homepage "https://github.com/seanmozeik/talon"
-  version "0.4.2"
+  version "0.4.6"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/seanmozeik/talon/releases/download/v#{version}/talon-darwin-arm64.tar.gz"
-      sha256 "c96e3b3b0a424b0602ef4f7e24c61ff781d352421b5ff13680b274cc857674c0"
+      sha256 "97af993015234a9ac496883efa54ef474294633230f697488bf55487cb44053a"
     else
       url "https://github.com/seanmozeik/talon/releases/download/v#{version}/talon-darwin-x64.tar.gz"
-      sha256 "0a4133335ccea09d1eb9175ce80725e7ad9bc8245dc698350c793c6a08bc7553"
+      sha256 "64e60422234ba36a8865699d2436777abbf7fcae7b70d72f24f49f9b8d2ac472"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
       url "https://github.com/seanmozeik/talon/releases/download/v#{version}/talon-linux-arm64.tar.gz"
-      sha256 "d9817f6ade3619ffa227fc99b1b9ff0a5b2bc7e3d8fe2c78ebac574a18cde66b"
+      sha256 "38316eeb99c708d5aa488df63cd373acdb45f683b71b26fee3f3dea0aa7a9589"
     else
       url "https://github.com/seanmozeik/talon/releases/download/v#{version}/talon-linux-x64.tar.gz"
-      sha256 "35f8db8755162605ec4bf3d50d2b090f2b03eee0cb0bf361eab69696b5badad9"
+      sha256 "ae611499aeebb0759eb7394d07da1b1dcf9afe7414441f93d14bc5c902cfda82"
     end
   end
 
